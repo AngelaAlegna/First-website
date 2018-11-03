@@ -1,2 +1,2 @@
-# First-website
+# first-website
 my first git repo and project
