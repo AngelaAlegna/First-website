@@ -15,3 +15,19 @@ $(".nav-prompt").click(function() {
     $(".nav-prompt").text("Open Navigation");
   }
 });
+
+
+// nav active class
+
+function activeMenu() {
+
+    var url = window.location.href;
+
+    $('.nav-inner a').filter(function() {
+
+        return this.href == url;
+        
+    }).addClass('active');
+}
+
+activeMenu();
